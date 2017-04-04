@@ -1,0 +1,51 @@
+
+3) Qarşısında typeof olmasa,xeyr.
+4)Var ifadəsini istifadə etsəniz, dəyişən olduğunuz əhatə daxilində bildirilir. Var istifadə etməsəniz, dəyişən, göstərilən ad və ya ümumi obyekt  tərəfindən bir dəyişənə rastlayana qədər harasa bağlanır. O zaman global bir dəyişənə çox bənzəyir. Bununla birlikdə, silmə ilə silinə bilər . 
+Var dəyişənini ümumi çərçivədə istifadə etsəniz, dəyişən tamamilə qlobal olur və silinə bilməz.
+5) "==" operatoru qarşılaşdırma edərkən əgər 2 tip bir-birinə çevrilə bilirsə,çevirmə işini görür və onları qarşılaşdırır. "===" operatoru 
+is? tip cevrilisi el?m?d?n d?y?rl?rin h?m tip,h?m d? d?y?rl?rini yoxlay?r.
+6) JavaScript dəyişənləri bir cox m?lumatlar?n novunu saxlaya bil?r:
+ a) strings                     
+ b) numbers
+ c) object
+ d) boolean
+ e) null
+ f) undefined  
+ g) symbol
+7) string ilk sətirdə gəldiyi üçün "123" alınır. string sonuncu sətirdə gəldiyi üçün "33" alınır.
+8)Web sayt?n?n m?qs?din? bagl? oldugunu dusunur?m. M?s?l?n treehouse kimi bir t?tbiq javascript t?l?b edir. Js bagl?d?rsa, istifad?ci bir web t?tbiqinin tamamil? funksional olmas?n? gozl?m?m?lisiniz. Sanaram goz? batmayan js ag?ll? bir h?d?fdir, ancaq daha az funksional bir web t?tbiqi, ziyar?tcil?rin coxunun keyfiyy?tini dusurebilirken cox kicik bir ziyaretci qrupuna xidm?t ver? bil?r
+9) undefined bir adland?r?lmam?s bir obyektdir. null is? obyetdir, bir d?y?r? t?msil olaraq bir d?yis?n? t?yin edil? bil?r.
+   null === undefined // false
+   null == undefined // true
+   null === null // true
+   null = 'value' // ReferenceError
+   undefined = 'value' // 'value'
+10) if-else statement,switch statement
+11) NaN - Qlobal obyektin bir xususiyyətidir,baslanğıc dəyəri Not-A-Number -  Number.NaN adlanır.
+    NaN===Nan;  //false
+    Number.NaN===Nan; //false
+    isNaN(Nan); //true
+    isNaN(number.Nan); //true
+    
+12)JavaScript this açar sözü hər hansı bir funksiya əhatəsi içində və ya ümumi çərçivədə istifadə və hər çərçivədə fərqli bir dəyər alır. Bunun bir funksiyanın içindəki dəyəri, əslində adı verilən obyektə bağlıdır.
+13)Var olmayan və bildirilməmiş bir dəyişəni istifadə etməyə çalışsanız, javascript səhv verir. var name is not defined
+Ancaq typeof noname istifadə etsəkç undefined alınır.
+15) Funksional(functional),prosessual(procedural).
+16) Funksional proqramlasd?rma - ?mrl?rin icras?ndan cox ifad?l?rin qiym?tl?ndirilm?sini vurgulayan bir proqram t?rzidir.
+17)Classical inheritance: Yaradıcılar olaraq bir sinif yazılır. Bu t?k sinifd?n bird?n cox obyekt yarad?la bil?r.  if - else 
+Ayr?ca, bu sinfi gotur?n basqa bir sinif yaza bil?r v? daha sonra bu sinifl?rin numun?l?rini yarada bil?rik.
+Bir alt sinifin bir numun?sini yaratmaqla h?m alt sinifin , h?m d? ust sinifin 
+funksionall?g?n? ?ld? ed?rik.
+Prototypal inheritance: Sinifl?r dey? bir sey yoxdur. Bunun yerinə sadəcə bir obyekt müəyyən edilir və lazım olan hər cür funksionall?g?n t?tbiq 
+edilm?si baslay?r. Movcud olan bir obyekt? funksionalləq əlavə etmək ist?diyinizd? obyektin prototipin? ?lav? ed? bil?rsiniz. 
+Number kimi bir obyekt uz?rind? bir usul cag?rmaga c?hd ets?niz, ?vv?l o obyektd?ki metoddan axtaracaqd?r. 
+Tapmasa metoddan tapana q?d?r z?nciri yuxar? c?k?c?kdir.
+18)Obyekt yönümlü dillər, işlərlə əlaqədar sabit bir sıra əməliyyat edərkən yaxşı olar və kodunuz inkişaf etdikcə əvvəlcə yeni şeylər əlavə edir. 
+Sabit bir şeylərə sahib olduğunuzda funksional dillər yaxşı olar və kodunuz inkişaf etdikcə, əvvəlcə var olanlara yeni əməliyyatlar əlavə edərsiniz. Bu, mövcud məlumatların növləri hesablanan yeni funksiyalar əlavə olunaraq həyata keçirilər və mövcud funksiyalar tək başına buraxılar.
+20) Numayəndə heyəti (yəni, prototip zənciri).
+    Birləşdirici
+    Funksional
+21)
+22)
+
+
